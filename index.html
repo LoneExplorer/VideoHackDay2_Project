@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eat What You Feel</title>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="clarifai.js"></script>
+</head>
+<body>
+  <div>
+    <input type="text" id="emotion" placeholder="Emotion"/>
+    <button onclick="run($('#emotion').val())">Get Food!</button>
+  </div>
+  <div id="tags">
+    <p></p>
+    <img></img>
+  </div>
+</body>
+</html>
